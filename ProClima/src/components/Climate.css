@@ -1,0 +1,58 @@
+.Conteiner {
+    background-color: #b8b8b8;
+    padding: 10px;
+    border: 0.7px solid #2c3035;
+    border-radius: 5px;
+    border-color: #333;
+    max-width: 400px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.content {
+    margin-top: 10px;
+    justify-content: space-between;
+    word-break: break-word;
+    display: flex;
+}
+
+input {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    width: 100%;
+    outline: none;
+    border: 1px solid #222;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+button {
+    display: flex;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+button svg {
+    font-size: 40px;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+button:hover{
+    color: #394049;
+}
+
+
+img {
+    min-width: 120px;
+    background-image: radial-gradient(#b5b5b5, transparent 70%);
+}

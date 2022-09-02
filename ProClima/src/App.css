@@ -1,0 +1,10 @@
+.titulo {
+    padding: 1em;
+    text-align: center;
+    transition: 0.7s;
+}
+
+.titulo:hover {
+    color: #394049;
+}
+
